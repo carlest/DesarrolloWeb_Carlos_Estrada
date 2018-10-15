@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable:no">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <svg  width="200px" height="120px">
+        <image xlink:href="img/icon.svg" width="220px" height="180px" x="-20" y="-40"></image>
+        <h1>Curriculum Vitae</h1>
+      </svg>
+      <p>
+        <strong>Nombres:</strong>Carlos Sebastian<br>
+        <strong>Apellidos:</strong>Estrada Soto<br>
+        <strong>Fecha de nacimiento:</strong>18/07/95<br>
+        <strong>Lugar de nacimiento:</strong> Lima,Perú<br>
+      </p>
+      <nav>
+        <a href="index.html">Inicio</a>
+        |
+        <a href="educacion.html">Educación</a>
+        |
+        <a href="experiencia.html">Experiencia</a>
+      </nav>
+    </header>
+    <section>
+      <h2>Educación</h2>
+      <article class="Certificados">
+        <table border="1">
+          <thead>
+            <td>Año</td>
+            <td>Institución</td>
+            <td>Lugar</td>
+            <td>¿Culminó?</td>
+          </thead>
+          <tr>
+            <td>2014</td>
+            <td>Universidad Nacional Mayor de San Marcos</td>
+            <td>Lima</td>
+            <td>En proceso</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>Universidad Nacional de Ingeniería</td>
+            <td>Lima</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>Asociación Cultural Peruano Británica</td>
+            <td>Lima</td>
+            <td>En proceso</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Camara Peruana de Comercio Electrónico</td>
+            <td>Lima</td>
+            <td>Si</td>
+          </tr>
+        </table>
+      </article>
+      <article class="Formulario">
+        <form autocomplete="on" name="agregar estudios" >
+          <legend> <h2>Agregar Estudios</h2> </legend>
+            <label for="año"><strong>Año</strong></label>
+            <select class="Año" name="año" id="año">
+              <option value="1">2014</option>
+              <option value="2">2015</option>
+              <option value="3">2016</option>
+              <option value="4">2017</option>
+              <option value="5">2018</option>
+            </select><br>
+            <label for="institucion"> <strong>Institución</strong> </label>
+            <input type="text" name="institucion" id="institucion" required><br>
+            <label for="lugar"> <strong>Lugar</strong> </label>
+            <textarea name="lugar" id="lugar" rows="1" cols="40"></textarea><br>
+            <br>
+            <input type="submit">
+            <br></br>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <a href="mailto="tian_1995@hotmail.com? subject="feedback">correo</a>
+      |
+      <strong>telf:996369857</strong>
+      |
+      <a href="https://www.facebook.com/carlos.estradasoto.10">Facebook</a>
+    </footer>
+</html>
